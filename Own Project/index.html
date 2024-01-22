@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.Css"/>
+  </head>
+  <body>
+    <h1><em>Survey Form</em></h1>
+  
+    <form >
+        
+        <div class="form-style">
+            <p for="name" >
+                Name
+            </p>
+            
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name"  />
+        </div>
+
+        <div class="form-style">
+          <p for="email" >
+              Email
+          </p>
+
+           <input type="email"
+                 id="email"
+                 placeholder="Enter your email" />
+      </div>  
+      
+      <div class="form-style">
+          <p for="gender">
+            Gender:
+
+          <input type="radio"
+                 id="gender"
+                 name="recommed">Male
+                  
+                  <input type="radio"
+                 id="gender"
+                 name="recommed"
+                  />Female
+           </p>
+             
+      </div>
+      <div class="form-style">
+        <p for="date">Date of birth</p>
+        <input type="date" id="date"/>
+
+      </div>
+
+       <div class="form-style"> 
+        <p for="phno">Mobile Number</p>
+        <input type="tel" id="phno" placeholder="+91"/>
+
+      </div>
+
+      <div class="form-style">
+        <p for="role" id="label-role">
+            Which option best describes you?
+        </p>
+         
+        <select name="role" id="role" >
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">
+                Professional
+            </option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <div class="form-style">
+      <p>
+          How much you are interested in cultural activities?
+        </p> 
+        <small>(Between 0 and 100)</small>
+      
+<p for="range">
+  <input type="range" id="range" >
+
+</p>
+
+  <div class="form-style">
+    <p>Choose the activities you want to participate? 
+        <small >(Click on options that you are interested in)</small>
+    </p>
+   
+    <label for="act-1">
+        <input type="checkbox"
+               name="act">Arts</input></label>
+    <label for="act-2?">
+        <input type="checkbox"
+               name="act-2">Sports</input></label>
+    <label for="act-3">
+        <input type="checkbox"
+               name="act-3">Clubs(Nss & Uba)</input></label>
+    <label for="act-4">
+        <input type="checkbox"
+               name="act-4">Music</input></label>
+    <label for="act-5">
+        <input type="checkbox"
+               name="act-5">Photography</input></label>
+    <label for="act-6">
+        <input type="checkbox"
+               name="act-6">Dance</input></label>   
+    </div>
+
+    <div class="form-style">
+      <p for="file"  >
+          Upload a file
+      </p>
+
+      <input type="file"
+             id="file"
+             placeholder="click here to Upload" />
+  </div>
+
+  <div class="form-style">
+    <p for="time">At what time you can able to attend?</p>
+    <input type="time" id="time"/>
+
+  </div>
+
+     <div class="form-style">
+  <p for="comment">
+      Any comments or suggestions
+  </p>
+
+  <textarea type="comment" id="comment"
+    placeholder="Enter your comment here" > 
+  </textarea>
+</div>
+
+<input type="reset" value="Reset">
+<input type="submit" value="Submit" 
+onclick="alert('Form submitted successfully')"/>
+
+
+ <!-- <button onclick="alert('Form submitted successfully')">Submit</button> -->
+
+</div>
+</form>
+  </body>
+</html>

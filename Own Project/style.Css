@@ -1,0 +1,70 @@
+h1 {
+  color: #fb9595;
+}
+
+body {
+  background-color: #89f395;
+  font-family: Verdana;
+  text-align: center;
+  background-image: url(smiley.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  background-color: #09c9bf;
+  max-width: 600px;
+  margin: auto;
+  padding: 50px 20px;
+}
+form-style {
+  text-align: left;
+  margin-bottom: 25px;
+}
+p {
+  color: rgb(14, 14, 15);
+  font-size: 17px;
+  text-align: left;
+}
+label {
+  color: #bf2c3b;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+input,
+select,
+textarea {
+  border: 1px solid #6a5a5a;
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: 20px;
+}
+input[type="submit"],
+input[type="Reset"] {
+  width: auto;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+/* button {
+  background-color: #fb9595;
+  border: 1px solid #75706f;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+} */
+/* #09c9bf; */
+/* #89f395 */
+/* #d3f295 */
